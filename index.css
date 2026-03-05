@@ -1,0 +1,215 @@
+html {
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+}
+
+.full-screen {
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(7px);
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column; 
+}
+
+
+
+.sign-up-overlay {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    background: white;
+    width: 544px;
+    height: 638px;
+    border-radius: 24px;
+}
+
+.sign-up-overlay.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.close-button {
+    position: absolute;  
+    top: 19px;          
+    right: 22px;      
+    border-radius: 100px; 
+    background-color: #F4F4F4;
+    width: 40px;
+    height: 40px;
+    z-index: 5;
+    border: none;
+    cursor: pointer;
+}
+
+.content {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 448px;
+    height: 553.04px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logoimg {
+    top: 0;
+    display: flex;
+    position: absolute;
+    
+}
+
+.header-and-descr {
+    display: flex;
+    text-align: center;
+    top: 70px;       
+    position: absolute;
+    flex-direction: column;
+    color: #100F14;
+    gap: 8px;
+}
+
+h1 {
+    font-weight: 500;
+    
+    font-size: 32px;
+    line-height: 41px;
+}
+
+.link {
+    color: #100F14;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 2px;
+    line-height: 25px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 448px;
+    justify-content: center;
+    position: absolute; 
+    margin-top: 90px;
+}
+
+.buttons_email {
+    display: flex;
+    width: 100%;
+    height: 64px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: none;
+    border-radius: 40px;
+    background: #100F14;
+    cursor: pointer;
+}
+
+#b1 {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.buttons_facebook {
+    display: flex;
+    width: 100%;
+    height: 64px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 1px solid #9794AA;
+    border-radius: 40px;
+    background: white;
+    cursor: pointer;
+    color: #100F14;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.buttons_facebook:hover {
+    background: #100F14;
+    border: none;
+    color: white;
+    
+}
+
+.buttons_google {
+    display: flex;
+    width: 100%;
+    height: 64px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 1px solid #9794AA;
+    border-radius: 40px;
+    background: white;
+    cursor: pointer;
+    color: #100F14;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.buttons_google:hover {
+    background: #100F14;
+    border: none;
+    color: white;
+}
+
+.link-text {
+    flex-direction: row;
+    width: 345px;
+    margin-top: 450px;
+    text-align: left;
+    color: #686677;
+    font-size: 14px;
+}
+
+.linkk {
+    flex-direction: row;
+    color: #100F14;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.linkk:hover {
+    text-decoration: underline;
+}
+
+.have-account {
+    flex-direction: row;
+    width: 444px;
+    padding-top: 32px;
+    text-align: center;
+    color: #686677;
+    font-size: 14px;
+    position: relative;
+}

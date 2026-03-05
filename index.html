@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="full-screen">
+        <div class="sign-up-overlay" id="sign-up-overlay">
+            <button type="button" class="close-button" id="closeBtn"><img src="Vector.png"></button>
+            <div class="content">
+                <img class="logoimg" src="Logoimg.png">
+                <div class="header-and-descr">
+                    <h1>Register to get free access 
+to all our recourses</h1>
+                    <a href="#" class="link">Sign up to see more</a>
+                </div>
+                <div class="buttons">
+                    <button type="button" class="buttons_email">
+                        <a href="#" id="b1">Continue with email</a>
+                    </button>
+                    <button type="button" class="buttons_facebook">
+                        <a href="#" class="buttons_facebook">Continue with Facebook</a>
+                    </button>
+                    <button type="button" class="buttons_google">
+                        <a href="#" class="buttons_google">Continue with Google</a>
+                    </button>
+                </div>
+                <div class="link-text">
+                    By continuing, you agree to the <a href="#" class="linkk">Terms of Service</a> and acknowledge you’ve read our <a href="#" class="linkk">Privacy Policy.</a> 
+                </div>
+                <div class="have-account">
+                    Already a member? <a href="#" class="linkk">Log in </a>
+                </div>
+            </div>
+        </div>
+    </div>
+<script>
+    document.getElementById('closeBtn').addEventListener('click', function() {
+    document.getElementById('sign-up-overlay').style.display = 'none' ;
+});
+
+</script>
+</body>
+</html>
