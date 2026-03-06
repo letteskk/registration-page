@@ -29,8 +29,6 @@ body {
     flex-direction: column; 
 }
 
-
-
 .sign-up-overlay {
     position: relative;
     display: flex;
@@ -76,7 +74,6 @@ body {
     top: 0;
     display: flex;
     position: absolute;
-    
 }
 
 .header-and-descr {
@@ -91,7 +88,6 @@ body {
 
 h1 {
     font-weight: 500;
-    
     font-size: 32px;
     line-height: 41px;
 }
@@ -212,4 +208,219 @@ h1 {
     color: #686677;
     font-size: 14px;
     position: relative;
+}
+
+@media (max-width: 480px) {
+    html {
+        display: flex;
+        background: white;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: sticky;
+        overflow-x: hidden;
+        width: 100% !important;
+        height: 100vh;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    body {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    * {
+        box-sizing: border-box !important;
+        max-width: 100%;
+    }
+
+    .full-screen {
+        background: white;
+        justify-content: center;
+        position: sticky;
+    }
+    .close-button {
+        display: none;
+    }
+    .content {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 100%;
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    h1 {
+        font-size: 24px;
+        text-align: center;
+        justify-content: center;
+        width: 90vw;
+        line-height: 30px;
+    }
+    .link {
+        font-size: 14px;
+    }
+    .buttons {
+        max-width: calc(100vw - 2vw);
+        justify-content: center;
+    }
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    .link-text {
+        width: 70%;
+    }
+    .have-account {
+        width: 70%;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        display: flex;
+        background: white;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: sticky;
+        overflow-x: hidden;
+        width: 100% !important;
+        height: 100vh;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    body {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    * {
+        box-sizing: border-box !important;
+        max-width: 100%;
+    }
+
+    .full-screen {
+        background: white;
+        justify-content: center;
+        position: sticky;
+    }
+    .close-button {
+        display: none;
+    }
+    .content {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 100%;
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    h1 {
+        text-align: center;
+        justify-content: center;
+        width: 90vw;
+    }
+    .buttons {
+        max-width: calc(100vw - 2vw);
+        justify-content: center;
+    }
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    .link-text {
+        width: 70%;
+    }
+    .have-account {
+        width: 70%;
+    }
+}
+
+@media (max-width: 1025px) {
+    html {
+        display: flex;
+        background: white;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: sticky;
+        overflow-x: hidden;
+        width: 100% !important;
+        height: 100vh;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    body {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    * {
+        box-sizing: border-box !important;
+        max-width: 100%;
+    }
+
+    .full-screen {
+        background: white;
+        justify-content: center;
+        position: sticky;
+    }
+    .close-button {
+        display: none;
+    }
+    .content {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 100%;
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    h1 {
+        text-align: center;
+        justify-content: center;
+        width: 90vw;
+    }
+    .buttons {
+        max-width: calc(100vw - 2vw);
+        justify-content: center;
+    }
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    .link-text {
+        width: 70%;
+    }
+    .have-account {
+        width: 70%;
+    }
 }
